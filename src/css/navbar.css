@@ -1,0 +1,20 @@
+.ul-items{
+    color: aqua;
+    list-style: none;
+}
+
+#nav {
+    /* border: 2px solid red; */
+    margin: 0px 113px 0px 113px;
+    padding: 10px 120px 10px 80px;
+}
+
+.color {
+    background-color: black;
+    color: aliceblue;
+    border-radius: 6px;
+}
+
+#nav-head, #nav-items {
+    gap: 30px;
+} 

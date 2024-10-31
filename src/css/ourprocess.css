@@ -1,0 +1,71 @@
+*{
+    padding: 0px;
+    margin: 0px; 
+    box-sizing: border-box;
+}
+
+.heading-one{
+    /* border: 2px solid red; */
+    background-color: white;
+    line-height: 30px;
+    font-size: small;
+    padding: 2rem 5rem;
+    width: 100%;
+    /* position: fixed; */
+}
+
+.heading-one h5, p {
+    color: gray;
+}
+.heading-one, .the {
+    color: gray;
+}
+
+.heading-one h5 {
+    font-size: 18px;
+}
+
+.heading-one h3 {
+    font-size: 25px;
+    color: black;
+}
+
+.body-one{
+    display: flex;
+    gap: 25px;
+}
+
+.body-one .body-one-left, .pic-one {
+    width: 80px;
+    height: 10vh;
+    margin-top: 10px;
+}
+
+.body-container,.body-one-right,h3 {
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.body-one .body-one-right, .pic-two{
+    width: 90% ;
+    /* height: 40vh; */
+}
+
+.body-container{
+    /* border: 2px solid red; */
+    padding: 0 5rem;
+    overflow: auto;
+    height: 350px;
+    position: relative;
+}
+
+.body-container::-webkit-scrollbar {
+    display: none;
+}
+
+.body-container, .body-one-right, p {
+    line-height: 20px;
+    font-size: small;
+}
+
+

@@ -1,0 +1,160 @@
+
+.about-firstdata {
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 60px 15px 60px 15px;
+}
+
+.about-firstdata-left {
+    display: grid;
+    width: 550px;
+    height: 60vh;
+    padding: 50px 0px;
+
+}
+
+.architecture {
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    font: Gill Sans;
+    line-height: normal;
+}
+
+.about-dataone, .about-welcome {
+    color: gray;
+    font-weight: 100;
+    text-align: left;
+}
+
+.about-spaces {
+    font-size: large;
+    color: black;
+}
+
+.about-welcome{
+    font-family: 'Times New Roman', Times, serif;  
+}
+
+.about-dataone {
+    margin-top: 12px;
+}
+
+.about-rightbox {
+    border: 1px solid red;
+    background-color: white;
+    width: 450px;
+    height: 50vh;
+    position: relative;
+    margin-top: 25px;
+}
+
+.about-rightbox2 {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+
+/* .about-seconddata {
+    border: 2px solid red;
+} */
+
+
+
+.about-key {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 23px;
+    /* padding: 20px; */
+}
+
+.about-keyitems {
+    border: 1px solid gray;
+    background-color: whitesmoke;
+    border-left: none;
+    border-right: none;
+    display: flex;
+    padding: 30px 80px 30px 80px;
+    gap: 70px;
+    margin: 50px 135px 50px 135px;
+}
+
+.keyitem-one{
+    /* border: 2px solid red; */
+    text-align: left;
+    padding: 4px;
+}
+
+.keyitem-one, .shastra {
+    color: black;
+}
+
+.keyitem-one, .vastu {
+    color: gray;
+}
+
+.keyitem-two {
+    /* border: 2px solid red; */
+    text-align: left;
+    padding: 4px;
+
+}
+.keyitem-two, .natural {
+    color: black;
+}
+.keyitem-two, .elements {
+    color: gray;
+}
+
+.keyitem-three {
+    /* border: 2px solid red; */
+    text-align: left;
+    padding: 4px;
+
+}
+.keyitem-three, .sacred {
+    color: black;
+}
+.keyitem-three, .geometry {
+    color: gray;
+}
+
+
+
+
+
+.about-head-1{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red; */
+    color: palevioletred;
+    font-weight: 700;
+    padding: 30px;
+    font-size: 38px;
+}
+.about-part-1{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.about-head-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-head-left{
+    /* border: 2px solid red; */
+    padding: 40px;
+}
+.about-head-right{
+    width: 650px;
+    height: 450px;
+}

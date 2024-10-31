@@ -1,0 +1,107 @@
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1e1e1e;
+    height: 57vh;
+    padding: 5px 120px;
+}
+.footer-leftpart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+    gap: 50px;
+}
+.footer-img {
+    width: 150px;
+    height: 100px;
+    margin-left: -165px;
+}
+.footer-leftpart, h3 {
+    line-height: 26px;
+    font-weight: 700;
+    color: white;
+}
+.footer-rightpart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.footer-rightpart-in-leftside {
+    list-style-type: none;
+    margin-bottom: 100px;
+}
+.footer-rightpart-in-leftside, li {
+    color: white;
+    line-height: 30px;
+}
+.footer-rightpart-in-leftside, li:nth-child(1) {
+    color: palevioletred;
+}
+ 
+.in-right-data, li:nth-child(4) {
+    color: palevioletred;
+}
+.in-right-data, li:nth-child(6) {
+    color: palevioletred;
+}
+.in-right-data {
+    list-style-type: none;
+}
+ 
+ 
+ 
+.footer-ending-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    bottom: 60px;
+    padding: 5px 100px;
+}
+ 
+.copy {
+    color: white;
+    padding-top: 10px;
+}
+.footer-btns {
+    display: flex;
+    width: 250px;
+    gap: 20px;
+}
+.fa-twitter {
+    color: white;
+}
+.btn01 {
+    background-color: black;
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+.btn02 {
+    background-color: #d65397;
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+}
+.btn03 {
+    background-color: black;
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+.btn04 {
+    background-color: black;
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    border: 1px solid white;
+}

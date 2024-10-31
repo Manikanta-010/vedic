@@ -1,0 +1,101 @@
+.header-bg-images {
+    width: 84%;
+    height: 90vh;
+    animation: animate 15s linear infinite;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 8.2em;
+}
+ 
+@keyframes animate {
+ 
+    0%,
+    100% {
+        opacity: 1;
+        background-image: url("../../public/images/home-page-02.png")
+    }
+ 
+    33.33%,
+    66.66% {
+        opacity: 1;
+        background-image: url('../../public/images/home-page-03.png');
+    }
+ 
+    50% {
+        opacity: 1;
+        background-image: url('../../public/images/homeone.jpg');
+    }
+}
+
+.images-insidebox {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 55%;
+    height: auto;
+    position: relative;
+    top: 27%;
+    right: 28%;
+    bottom: 25%;
+    left: 22%;
+    /* background-color: #000000; */
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+}
+.insidebox-headings {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.inside-headingone {
+    color: white;
+    text-align: center;
+    font-weight: 800;
+    font-size: 36px;
+}
+.inside-para {
+    color: white;
+    text-align: center;
+    font-weight: 400;
+}
+
+.inside-headingone {
+    padding: 15px 0px;
+}
+.inside-para {
+    padding: 10px 0px;
+}
+
+.insidebox-btns {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    padding: 20px;
+}
+.inside-btn01 {
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 2px;
+    border: none;
+    border-radius: 5px;
+    background-color: rosybrown;
+    color: white;
+}
+.inside-btn02 {
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 2px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: none;
+    color: white;
+}
+.fa-arrow-right {
+    margin-top: 3px;
+    margin-left: 5px;
+}
